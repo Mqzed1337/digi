@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<h1><span id='num'>...</span> times tables requested</h1>
+<input type='number' max='12' min='0' id="inputNum" placeholder="Enter a number 1-12">
+<button id="inputbtn">Click</button>
+<div id="timestables"></div>
+<script>
+    function update() {
+        num.textContent = inputNum.value;
+        numb = Number(inputNum.value)
+        let ttables = '<p>'
+        for (let i = 1; i <= numb; i++) {
+            ttables += `3 x ${i} = ${3 * i}<br>`;
+        }
+        ttables += '<p>'
+        timestables.innerHTML = ttables;
+    }
+    inputbtn.onclick = update;
+</script>

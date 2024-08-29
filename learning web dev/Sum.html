@@ -1,0 +1,20 @@
+<body onload="displaySum()">
+    <label>Hi <span id="result">...</span>!</label>
+    <img src="" alt="GIF" id="image1">
+</body>
+
+<script>
+    function displaySum() {
+        result.textContent = sessionStorage.getItem("name");
+        let animal = sessionStorage.getItem("animal");
+        if (animal == 'wolf') {
+            imagesrc = 'https://pbs.twimg.com/media/F-m0IGcW0AETt3f.jpg'
+        } else if (animal == 'cat') {
+            imagesrc = 'https://media.istockphoto.com/id/1443562748/photo/cute-ginger-cat.jpg?s=612x612&w=0&k=20&c=vvM97wWz-hMj7DLzfpYRmY2VswTqcFEKkC437hxm3Cg='
+        }
+        else {
+            imagesrc = 'https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg'
+        }
+        document.getElementById('image1').src = imagesrc;
+    }
+</script>

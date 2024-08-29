@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <label>Name:<input id="input_name"></label><br />
+    <label>Animal<input id="input_animal"></label>
+
+    <button id="addButton"> + </button>
+
+
+    <script>
+        function addNumbers() {
+            sessionStorage.setItem("animal", input_animal.value);
+            sessionStorage.setItem("name", i.value);
+            window.location.replace("Sum.html")
+        }
+        addButton.onclick = addNumbers;
+    </script>
+</body>
+
+</html>

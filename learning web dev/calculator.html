@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <input id="num3" type="number">
+    <input id="num4" type="number">
+    <button id="addButton"> + </button>
+    <button id="subButton"> - </button>
+    <button id="mulButton"> * </button>
+    <button id="divButton"> / </button>
+    <p id="result">...</p>
+
+</body>
+
+</html>
+<script>
+    function addNumbers() {
+        let num1 = Number(num3.value);
+        let num2 = Number(num4.value);
+        result.textContent = num1 + num2;
+    }
+
+    function subNumbers() {
+        let num1 = Number(num3.value);
+        let num2 = Number(num4.value);
+        result.textContent = num1 - num2;
+    }
+
+    function mulNumbers() {
+        let num1 = Number(num3.value);
+        let num2 = Number(num4.value);
+        result.textContent = num1 * num2;
+    }
+
+    function divNumbers() {
+        let num1 = Number(num3.value);
+        let num2 = Number(num4.value);
+        result.textContent = num1 / num2;
+    }
+
+    addButton.onclick = addNumbers;
+    subButton.onclick = subNumbers;
+    mulButton.onclick = mulNumbers;
+    divButton.onclick = divNumbers;
+</script>

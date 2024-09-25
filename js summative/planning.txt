@@ -1,0 +1,35 @@
+Flashcards
+
+polyatomic ions
+https://quizlet.com/782126/common-polyatomic-ions-flash-cards/
+
+
+
+Revise
+Testing
+
+2 different web pages
+_____________________________________
+
+Revise
+
+Left arrow
+Right arrow
+Flip
+Index (3/22)
+
+_____________________________________
+
+Testing
+
+Same features
+
+Flip is replaced by 4 buttons, which have <span> to dynamically change them
+Random order
+Random correct answer
+Plays a sound for correct/incorrect
+Gives a percentage score
+Depending on the percentage score, gives a "great" "amazing" and "try revise mode" 
+
+Show a "dont know button"
+ask "find the matching definition"

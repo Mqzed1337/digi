@@ -4,12 +4,26 @@ polyatomic ions
 https://quizlet.com/782126/common-polyatomic-ions-flash-cards/
 
 
+pseudocode notes
+<!-- store flashcards in a single 2 dimensional js array, in which each embedded array contains a question, the answer, and then 3 false options
+Create a span that dynamically change the card
+When an arrow is used, change the current index and call a updatecard(), which checks both the flip and index to display the correct information
+after the code initialises, split the first and second index of teh two dimensional array into a term and definition array
+when the flashcard itself is clicked, ++ a variable, and then take the %2 to determine whether to use the term or definition array-->
 
-Revise
-Testing
 
-2 different web pages
-_____________________________________
+<!--
+Flagging questions for review
+When flag button is pressed:
+Add index to a list
+If already in list remove index
+
+
+When test is pressed:
+replace the question and the answer lists with the questions and answers using flagged indices only
+
+-->
+____________________________________
 
 Revise
 
@@ -33,3 +47,4 @@ Depending on the percentage score, gives a "great" "amazing" and "try revise mod
 
 Show a "dont know button"
 ask "find the matching definition"
+
